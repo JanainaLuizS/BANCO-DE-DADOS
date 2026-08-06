@@ -31,7 +31,7 @@ sexo varchar (10)
 );
 
 create table alugueis(
-id_aluguel varchar(45),
+id_aluguel varchar(45)primary key,
 id_cliente int,
 id_filme int,
 nota double,
